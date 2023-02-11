@@ -1,0 +1,5 @@
+export { default as img01 } from './06.jpg'
+export { default as img02 } from './7L1A6074.jpg'
+export { default as img03 } from './GLD_4030.jpg'
+export { default as logo } from './Logo ErickVentura-04.png'
+export { default as erick } from './Erick.jpg'

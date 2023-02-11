@@ -1,0 +1,32 @@
+/* Social media */
+.socialMedia {
+  position: absolute;
+  z-index: 1000;
+  bottom: 5%;
+  left: 10%;
+}
+.socialMedia i {
+  font-size: 2rem;
+  margin: 10px;
+  cursor: pointer;
+}
+.arrowContainer {
+  position: absolute;
+  z-index: 1000;
+  bottom: 5%;
+  right: 10%;
+}
+.arrowContainer i {
+  font-size: 3rem;
+  margin: 10px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+@media (max-width: 800px) {
+  .socialMedia {
+    left: 2%;
+  }
+  .arrowContainer {
+    right: 2%;
+  }
+}

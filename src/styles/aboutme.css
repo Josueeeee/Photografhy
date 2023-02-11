@@ -1,0 +1,90 @@
+.height100 {
+  height: 100%;
+}
+.logoErick {
+  position: absolute;
+  z-index: 1000;
+  top: 5%;
+  left: 10%;
+}
+.containerSocialMedia {
+  position: relative;
+}
+
+.ContainerAboutmes {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 4rem;
+}
+
+.informarion {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.text {
+  padding: 1rem;
+  text-align: justify;
+  min-width: 300px;
+  max-width: 700px;
+}
+.PhotoErick {
+  width: 260px;
+  text-align: center;
+}
+.instagramPost {
+  position: absolute;
+  width: 260px;
+  height: 387px;
+  border: 1px solid white;
+}
+.post {
+  position: absolute;
+  width: 260px;
+  height: 430px;
+  border: 1px solid white;
+}
+.reactionsInsta {
+  position: absolute;
+  bottom: 0px;
+  left: 30px;
+}
+.reactionsInsta img {
+  width: 30px;
+  margin: 0rem 1rem;
+}
+@media (max-width: 950px) {
+  .title p {
+    font-size: 30px;
+  }
+  .ContainerAboutmes {
+    margin: 0 auto;
+    padding: 0rem;
+  }
+  .text {
+    padding: 1rem 2rem;
+  }
+  .logoErick {
+    left: 2%;
+  }
+  .PhotoErick {
+    width: 200px;
+  }
+  .instagramPost {
+    width: 200px;
+    height: 300px;
+  }
+  .post {
+    position: absolute;
+    width: 200px;
+    height: 323px;
+  }
+  .reactionsInsta {
+    position: absolute;
+    bottom: -5px;
+  }
+  .reactionsInsta img {
+    width: 20px;
+    margin: 0rem 0.8rem;
+  }
+}

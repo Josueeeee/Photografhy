@@ -1,0 +1,49 @@
+.containerHome {
+  position: relative;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.containerButtonPls {
+  display: flex;
+  justify-content: center;
+}
+.buttonPlus {
+  margin-top: 2rem;
+  width: 300.3px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  background: #18181d;
+  background-blend-mode: normal;
+  box-shadow: 0px 0.5px 10px 1px;
+  cursor: pointer;
+  transform: scaleY();
+}
+.containerInfo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.title {
+  text-align: center;
+}
+.title p {
+  font-size: 48px;
+  margin: 0;
+  padding: 1rem;
+}
+
+.Loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background-color: #000000;
+}
+.loadin {
+  width: 1000px;
+}

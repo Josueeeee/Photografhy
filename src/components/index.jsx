@@ -1,0 +1,7 @@
+export { default as Navbar } from './Navbar'
+export { default as Slider } from './Slider'
+export { default as SocialMedia } from './SocialMedia'
+export { default as Aboutme } from './Aboutme'
+export { default as Carousel } from './Carousel'
+export { default as Contact } from './Contact'
+export { default as Footer } from './Footer'

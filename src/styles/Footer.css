@@ -1,0 +1,53 @@
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  color: white;
+}
+.footerPadding {
+  padding: 1rem;
+}
+
+.socialMediaFooter {
+  display: flex;
+  justify-content: center;
+}
+.socialMediaFooter i {
+  font-size: 40px;
+  margin: 1rem;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.credits {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.reserv {
+  display: flex;
+}
+.reserv p {
+  margin: 1rem;
+}
+
+@media (max-width: 950px) {
+  footer {
+    height: 200px;
+  }
+
+  .reserv p {
+    margin: 0.5rem;
+    font-size: 10px;
+  }
+  .credits p {
+    font-size: 8px;
+  }
+  .containerSocialMediaS {
+    display: none;
+  }
+}
